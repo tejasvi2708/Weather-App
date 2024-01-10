@@ -1,0 +1,115 @@
+@media ((max-width:480px)){
+
+  .container{
+    min-height:100vh; 
+      
+  }
+  .hide{
+    display:none;
+}
+  .header{
+    font-size:2.5em;
+    text-align:center;
+    margin:0;
+    padding:3rem;
+    display:block;
+  }
+  .right-panel{
+    position:absolute;
+    left:20px;
+    right:00px;
+     top:18%;
+     width:70%;
+     height:70%;
+   }
+   .right-panel form{
+       margin-bottom:2.3em;
+   }
+  .search{
+    display:block;
+    border:none;
+    border-bottom:1px #ffe4e4 solid;
+    background: none;;
+    padding:1.1em 1em 0.9em 0;
+    width:90%;
+    font-size:1em;
+}
+.search:focus{
+    outline:none;
+}
+.search::placeholder, form input{
+color:#f3e4e4;
+}
+button{
+    position:absolute;
+    right:10px;
+    top:20px;
+    border:none;
+    background:none; 
+}
+button:hover{
+     cursor:pointer;  
+}
+.fa{
+    font-size:1rem;
+}
+.right-panel ul h4{
+    margin:1em 0 1em 0;
+    font-size:1.3em;
+    text-align:center;
+    
+}
+
+.right-panel ul li{
+  font-size:1.2rem;
+  padding:0.9rem 0 ;
+}
+.weather-info{
+        position:absolute;
+        bottom:15%;
+        left:15%;      
+        font-size:1rem;
+        margin-left:6em;
+        margin-bottom:0px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+       color:beige;
+       z-index: 2;
+       height:2rem;
+       width:0%;
+}
+.city-time{
+    margin:1.5em 0em;
+    padding-top:1.5em;
+    padding-right:0em;
+    font-size:1rem;
+}
+.city-time h1{
+    font-size:1.8em;
+    padding:0 0.5em;
+}
+.weather{
+    margin-top:0rem;
+    padding-top:2rem;
+    padding-right:0rem;
+   font-size:1.3rem;
+}
+.temp{
+    padding-right:0rem;
+    margin-top:0;
+    margin-bottom:1.4rem;
+    font-size:1.2em;
+}
+.icon{
+    width:4rem;
+
+    height:4rem;
+}
+.currDate{
+    font-size:1rem;
+    text-align:center;
+    padding-right: 0rem;
+}
+}

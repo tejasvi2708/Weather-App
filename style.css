@@ -1,0 +1,161 @@
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.container{
+    min-height:100vh;
+    background-image: url('./VCV.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    margin: 0;
+    padding:1em 0 0 2em;
+    font-size:3em;
+    color:#ccc;
+    display:inline-block;
+}
+.date{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-panel{
+ position:absolute;
+  right:0;
+  top:0;
+  width:30%;
+  height:90%;
+  background:rgba(48, 45, 45, 0.25);
+  box-shadow:0 8px 32px 0
+  rgba(0,0,0,0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index:1;
+  padding:1.8em 2em;
+}
+.right-panel form{
+    margin-bottom:2.3em;
+}
+
+button{
+    position:absolute;
+    right:0;
+    top:20;
+    border:none;
+    background:none
+   
+}
+.submit{
+
+    margin-bottom:1.9rem; 
+    margin-top:0.6rem;  
+    margin-right:1.5rem;
+    width:3.5em;
+    height:3.5em;
+   
+}
+button:hover{
+     cursor:pointer;  
+}
+.search{
+    border:none;
+    border-bottom:1px #ffe4e4 solid;
+    background: none;;
+    padding:1.1em 1em 0.9em 0;
+    width:80%;
+    font-size:1.1em;
+}
+.search:focus{
+    outline:none;
+}
+.search::placeholder, form input{
+color:#f3e4e4;
+}
+.right-panel ul{
+    font-size:1.2em;
+    margin:0;
+    padding:0 0 1em 0;
+    color:beige;
+    
+    }
+    .right-panel ul li{
+        padding: 0.6em 0;
+        list-style-type: none;
+        margin:0 ;  
+    }
+    .right-panel ul h4{
+        margin:2.5em 0 1em 0;
+        font-size:1.3em;
+    }
+    .cities{
+        border-bottom:1px solid #ccc;
+    }
+    .city{
+        cursor:pointer;
+    }
+    .city:hover{
+    color:#c2b4b4;
+    }
+    .details li{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .weather-info{
+        position:absolute;
+        bottom:0;
+        margin-left:2.5em;
+        margin-bottom:60px;
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+       color:beige;
+       }
+        .weather{
+             margin-top:1em;            
+             width:70px;
+             display:flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+        }
+        .icon img{
+            height:100%;
+            width:100%;
+        }
+        .icon{
+            height:4.5em;
+            width:4.5em;          
+        }
+       .city-time{
+           margin:0em 1em;
+       }
+       .currDate{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size:1.2em;
+        align-items: center;
+       }
+       .city-time h1{
+        
+           margin-bottom:0.3em;
+           font-size:3em;
+           padding:0 0.5em;
+       }
+       .temp{
+           font-size:2.5em;
+           margin-top:0.2em;           
+           
+       }
+  
+ 
+    
+      
