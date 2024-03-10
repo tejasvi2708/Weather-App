@@ -3,9 +3,9 @@
 The Weather App is made by using Vanilla Javascript and Realtime API for weather forecasting and fetching data for all the cities across the world .
 
 Tech Stack-
-OpenWeather API
-Vanilla Javascript
-CSS3
+OpenWeather API <br>
+Vanilla Javascript <br>
+CSS3 <br>
 Media Query
 
 Feature-
